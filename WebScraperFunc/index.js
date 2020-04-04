@@ -24,7 +24,8 @@ module.exports = async function (context, req) {
               var body = JSON.stringify({
                 "url": url,
                 "title":article.title,
-               "text":article.textContent
+               "text": article.excerpt,
+               "text_2" : article.textContent
               });
               context.res = {
 
