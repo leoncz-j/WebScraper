@@ -1,0 +1,22 @@
+{
+  "name": "WebScraper",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "dompurify": "^2.0.8",
+    "fetch-node": "0.0.1",
+    "https": "^1.0.0",
+    "jsdom": "^16.2.2",
+    "readability": "^0.1.0",
+    "readability-nodejs": "0.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {}
+}
