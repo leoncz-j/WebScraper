@@ -21,13 +21,14 @@ module.exports = async function (context, req) {
               let reader = new readability.Readability(dom.window.document);
               let article = reader.parse();
                 // response
+              var body = JSON.stringify({
+                "url": url,
+                "title":article.title,
+               "text":article.textContent
+              });
               context.res = {
 
-                body : {
-                   "url": url,
-                   "title":article.title,
-                  "text":article.textContent
-                }
+                body : body
 
               };
               }
